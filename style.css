@@ -156,3 +156,8 @@ img{
   margin: auto;
   display: block;
 }
+footer{
+  background-color: #3FD491;
+  margin: auto;
+  width: fit-content;
+}
