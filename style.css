@@ -1,0 +1,158 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap'); /* Headings */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Paragraphs */
+
+/* Meta */
+html, body { margin: 20px; }
+
+/* Text and Basic Decoration */
+
+h1 { font-family: 'Oswald', sans-serif; color: #000;
+     font-size: 8mm;
+     text-align: center;
+    }
+
+h2 { font-family: 'Oswald', sans-serif; color: #000; font-size: 8mm }
+
+p { font-family: 'Open Sans', sans-serif; color: #000; }
+
+ul li { font-family: 'Open Sans', sans-serif; color: #000; list-style: none; }
+
+/* Article Decoration */
+article {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+body{
+  background: repeating-linear-gradient(114deg,  #209a01, #00a6f5 2px)
+}
+/* Navigation Bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #000000;
+  background-color: #a5ffd5;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  font-family: 'Aleo', serif;
+  text-emphasis-style: strong;
+  border-radius: 5px;
+}
+li a:hover {
+  text-decoration: underline;
+  transition: all ease 0.7s;
+  border-radius: 10px;
+  color: black;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li a:hover { text-decoration: underline; }
+
+.active { text-decoration: underline; }
+
+/* Gonna organize  */
+
+article{
+  text-align: center;
+  padding-bottom: 5px;
+  /* background-color: lightgray; */
+  max-width: 1000px;
+  align-self: center;
+  margin-right: -150px;
+  display: contents;
+}
+
+/* Heading */
+.brand {
+  font-size: 45px;
+}
+
+.header-text{
+  font-size: 5rem;
+  color: white;
+  background-color:rgba(0,0,0,0.5);
+  text-shadow: black 0px 5px 0;
+  text-align: center;
+}
+
+.header-bg{
+  background-image: url(Images/Rutland_headerTXT.jpg);
+  background-position: center center;
+  display: block;
+  background-size: cover;
+  padding: 20px;
+  margin: 40px;
+}
+
+
+/* Distribution Schedule Table */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  max-width: 1000px;
+  min-width: 50%;
+}
+  
+#t01 {
+  border-spacing: 15px;
+  margin: auto;
+}
+  
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+  
+#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+  
+#t01 th {
+  color: white;
+  background-color: black;
+}
+  
+#t02 {
+  
+  background-color: #f1f1c1;
+  text-align: center;
+}
+  
+#t03 {
+  
+  background-color: gray;
+  text-align: center;
+}
+googleMap{
+  margin: auto;
+}
+img{
+  max-width: 800px;
+  margin: auto;
+  display: block;
+}
